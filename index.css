@@ -4,11 +4,11 @@ body{
     color: #2b283a;
     font-family: "Roboto", sans-serif;
 }
-header{
+
+header , .section-2nd{
     background-color: #5f29a3;
-
-
 }
+
 
 body, h1, h3{
     margin: 0;
@@ -32,14 +32,15 @@ font-size: 20px;
     color: #cfaafe;
 }
 
+p{
+    line-height: 23px;
+}
+
 a{
     color:#ef5939;
     text-decoration: 3px underline dotted black;
 }
-a:hover{
-    color: #d3b54b;
-}
-a:active{
+a:hover, a:active{
     color: #d3b54b;
 }
 
@@ -55,7 +56,7 @@ a:active{
 }
 
 .section-2nd{
-    background-color: #5f29a2;
+
     color: whitesmoke;
 }
 .section-2nd-img{
@@ -72,3 +73,29 @@ footer .container{
     color:  #5f29a3;
 }
 
+.button-links{
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.buy-nft{
+    background-color:#5f29a3;
+    color: whitesmoke;
+}
+.more-info, .contact{
+    background-color: #efe0ff;
+    color: #5f29a3;
+}
+.about-us{
+background-color: whitesmoke;
+    color: #5f29a3;
+}
+
+.button-links:hover,.button-links:active{
+    background-color: #f4e786;
+    color: black;
+}
