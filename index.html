@@ -1,73 +1,60 @@
-<html lang="en">
+<html>
 
-	<head><meta charset="utf-8">
-		<link rel="stylesheet" href="index.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Karla:ital,wght@0,200..800;1,200..800&amp;family=Orbitron:wght@400..900&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="index.css">
-		<title>NFT Website</title>
-	</head>
+<head>
+	<title>NFT Site</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+</head>
 
-<!-- 
-Challenge:
-1. Convert all <div> tags to semantic html tags.
-2. Think carefully about where to place the 
-   <main> tag. 
--->
-
-	<body>
-		<header>
+<body>
+	<header>
+		<div class="container">
+			<h1>
+				Wildly Expensive JPEGs
+				<span class="subheading">(Also known as NFTs)</span>
+			</h1>
+		</div>
+	</header>
+	<main>
+		<section>
 			<div class="container">
-				<h1>Insanely Expensive JPEGs</h1>
-				<h3>(Also known as NFTs)</h3>
-			</div>
-
-		</header>
-
-		<main>
-
-		<section class="section-1nd">
-			<div class="container">
-				<h2>Meta-Pigeon Sneaker NFT $33,000</h2>
-				<img class="sneaker-img" src="images/sneakers-purple.png" alt="Purple and silver sneakers">
-				<p><strong>At $33k, this NFT sneaker is super good value!</strong></p>
-				<p>If you've got lots of money and you're a bit daft, NFTs are a
-					great way to pay for something that doesn't have any intrinsic
-					value or even exist. Tech fashionistas are jumping on the NFT
-					bandwagon and spending eye-watering sums of money on crypto images.
-					Our advice: spend the weekend <a href="">crafting an NFT</a> and by
-					this time next week, you'll be a millionaire.</p>
-				<a class="button-links buy-nft" href="#">Buy NFT</a>
-				<a class="button-links more-info" href="#">More info</a>
+				<h2>Meta-Pigeon Sneaker NFT: $33,000</h2>
+				<img src="images/sneakers-purple.png" alt="Purple and silver sneakers" class="main-image">
+				<h3>At $33k, this NFT sneaker is super good value!</h3>
+				<p>If you've got lots of money and you're a bit silly, NFTs are a great way to pay for something that
+					doesn't have any intrinsic value or even exist. Tech fashionistas are jumping on the NFT bandwagon
+					and spending eye-watering sums of money on crypto images. Our advice: spend the weekend <a
+						href="#">crafting an NFT</a>, and by this time next week, you'll be a millionaire.</p>
+				<a href="#" class="btn btn-dark">Buy NFTs</a>
+				<a href="#" class="btn btn-mid">More info</a>
 			</div>
 		</section>
-		<section class="section-2nd">
+
+		<section class="section-two">
 			<div class="container">
-			<h2>For the true Crypto-connoisseur</h2>
-				<div class="section-2nd-img-container">
-					<img class="section-2nd-img" src="images/crypto-punk.jpg" alt="punk with blach hair and red and blue glasses">
-					<img class="section-2nd-img" src="images/bag.svg" alt="Seven items from a game listed in white on a black background">
+				<h2>For the true Crypto-connoisseur</h2>
+				<div class="section-two-image-container">
+					<img src="images/crypto-punk.jpg" alt="punk with blach hair and red and blue glasses"
+						class="feature-image">
+					<img src="images/bag.svg" alt="Seven items from a game listed in white on a black background"
+						class="feature-image">
 				</div>
-			<p>Is $33k for sneakers too basic for you? No problem! This CryptoPunk 
-				(left) is a steal at $6.6 million! Which makes Bag #748 (right) a 
-				total bargain at $1.4 million. And by the way, that's not a VS 
-				Code screenshot we included by mistake. The eight lines of white text 
-				on a black background is the actual NFT we're selling.</p>
-			<a class="button-links about-us" href="#">About Us</a>
-			<a class="button-links contact" href="#">Contact</a>
-			<p>Still not convinced? To be honest, nor are we. That's why we're selling 
-				them, not buying them.</p>
+				<p>Is $33k for sneakers too basic for you? No problem! This CryptoPunk (left) is a steal at $6.6
+					million, making Bag #748 (right) a total bargain at $1.4 million. And by the way, that's not a VS
+					Code screenshot we included by mistake. Those eight lines of white text on a black background is the
+					actual NFT we're selling.</p>
+				<a href="#" class="btn btn-light">About Us</a>
+				<a href="#" class="btn btn-mid">Contact</a>
+				<p>Still not convinced? To be honest, nor are we. That's why we're selling them, not buying them.</p>
 			</div>
 		</section>
-
-		</main>
 
 		<footer>
-			<div class="container">
 			<p>&copy; 2022 FoolsGold.com</p>
-			</div>
 		</footer>
-	</body>
+	</main>
+</body>
 
 </html>
