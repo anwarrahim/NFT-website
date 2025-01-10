@@ -80,7 +80,8 @@ footer .container{
 }
 
 .button-links{
-    padding: 10px 19px;
+    font-size: 18px;
+    padding: 0.5em 1.1em;
     border-radius: 4.6px;
     font-weight: 500;
     text-decoration: none;
