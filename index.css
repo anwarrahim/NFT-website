@@ -80,13 +80,14 @@ footer .container{
 }
 
 .button-links{
-    font-size: 18px;
+    font-size:1.125em;
     padding: 0.5em 1.1em;
     border-radius: 4.6px;
     font-weight: 500;
     text-decoration: none;
-    margin: 10px 0;
+    margin: 0.3em;
     display: inline-block;
+
 }
 
 .buy-nft{
