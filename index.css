@@ -19,7 +19,7 @@ header, section, footer{
 }
 
 h1{
-font-size: 36px;
+font-size:2.25em;
     color: #f4f5f4;
 }
 
@@ -28,7 +28,7 @@ margin-top: 0;
 }
 
 h3{
-font-size: 20px;
+font-size: 1.25em;
     color: #cfaafe;
 }
 
@@ -47,11 +47,15 @@ a:hover, a:active{
 
 
 .sneaker-img{
+    display: block;
     width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
 }
 
 .container{
-    width: 620px;
+    max-width: 800px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -59,13 +63,17 @@ a:hover, a:active{
 
     color: whitesmoke;
 }
-.section-2nd-img{
-    width: 300px;
-    border-radius: 4.6px;
-}
+
 .section-2nd-img-container{
     display: flex;
     justify-content: space-between;
+
+}
+
+.section-2nd-img {
+ 
+    width: 48.8%;
+    border-radius: 4.6px;
 }
 
 footer .container{
