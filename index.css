@@ -1,109 +1,135 @@
-
-body{
-    font-size: 16px;
+body {
     color: #2b283a;
-    font-family: "Roboto", sans-serif;
-}
-
-header , .section-2nd{
-    background-color: #5f29a3;
-}
-body, h1, h3{
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
-header, section, footer{
-    padding: 45px 0;
+/* ----- TYPOGRAPHY ----- */
+
+h1,
+h3 {
+    margin: 0;
 }
 
-h1{
-font-size:2.25em;
-    color: #f4f5f4;
+h1 {
+    color: whitesmoke;
+    font-size: 2.25em;
 }
 
-h2{
-margin-top: 0;
+h2 {
+    color: #451c7a;
+    font-size: 1.75em;
+    margin-top: 0;
 }
 
-h3{
-font-size: 1.25em;
-    color: #cfaafe;
+h3 {
+    font-size: 1.25em;
 }
 
-p{
+p {
     line-height: 23px;
 }
 
-a{
-    color:#ef5939;
-    text-decoration: 3px underline dotted black;
-}
-a:hover, a:active{
-    color: #d3b54b;
-}
-
-
-
-.sneaker-img{
+.subheading {
     display: block;
-    width: 100%;
-    max-width: 640px;
-    margin: 0 auto;
+    font-size: 0.56em;
+    color: #d0aaff;
 }
 
-.container{
-    max-width: 800px;
-    width: 90%;
-    margin: 0 auto;
+.section-two h2 {
+    color: inherit;
 }
 
-.section-2nd{
+/* ----- LINKS ----- */
 
+a {
+    color: #ef5839;
+    text-decoration: underline dotted;
+}
+
+a:hover,
+a:active {
+    color: #d4b44c;
+}
+
+/*
+  Challenge:
+   1. Convert the padding value of .btn from px to em
+   2. Space buttons both horizontally and vertically using margins and em units
+   3. Convert the font-size of .btn from px to em
+*/
+
+.btn {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4.6px;
+}
+
+.btn-dark {
+    color: whitesmoke;
+    background: #5f29a3;
+}
+
+.btn-mid {
+    color: #5f29a3;
+    background: #f0e0ff;
+}
+
+.btn-light {
+    color: #5f29a3;
+    background: whitesmoke;
+}
+
+.btn:hover,
+.btn:active {
+    color: #2b238a;
+    background-color: #f3e885;
+}
+
+/* ----- LAYOUT ----- */
+
+header,
+section,
+footer {
+    padding: 46px 0;
+}
+
+header,
+.section-two {
+    background-color: #5f29a3;
+}
+
+.section-two {
     color: whitesmoke;
 }
 
-.section-2nd-img-container{
-    display: flex;
-    justify-content: space-between;
-
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.section-2nd-img {
- 
+.main-image {
+    width: 100%;
+    display: block;
+    max-width: 640px;
+    margin: 0 auto 32px;
+}
+
+.section-two-image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-image {
     width: 48.8%;
     border-radius: 4.6px;
 }
 
-footer .container{
+footer {
     text-align: center;
-    color:  #5f29a3;
-}
-
-.button-links{
-    font-size:1.125em;
-    padding: 0.5em 1.1em;
-    border-radius: 4.6px;
-    font-weight: 500;
-    text-decoration: none;
-    margin: 0.3em;
-    display: inline-block;
-
-}
-
-.buy-nft{
-    background-color:#5f29a3;
-    color: whitesmoke;
-}
-.more-info, .contact{
-    background-color: #efe0ff;
     color: #5f29a3;
-}
-.about-us{
-background-color: whitesmoke;
-    color: #5f29a3;
-}
-
-.button-links:hover,.button-links:active{
-    background-color: #f4e786;
-    color: black;
 }
