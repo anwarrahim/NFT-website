@@ -8,17 +8,13 @@ body{
 header , .section-2nd{
     background-color: #5f29a3;
 }
-header {
-    padding-top: 1.87em;
-    margin-bottom: 1.87em;
-}
 
 
 body, h1, h3{
     margin: 0;
 }
 
-section, footer{
+header, section, footer{
     padding: 45px 0;
 }
 
@@ -57,7 +53,7 @@ a:hover, a:active{
     margin: 0 auto;
 }
 
-.container {
+.container{
     max-width: 800px;
     width: 90%;
     margin: 0 auto;
