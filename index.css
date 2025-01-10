@@ -8,13 +8,17 @@ body{
 header , .section-2nd{
     background-color: #5f29a3;
 }
+header {
+    padding-top: 1.87em;
+    margin-bottom: 1.87em;
+}
 
 
 body, h1, h3{
     margin: 0;
 }
 
-header, section, footer{
+section, footer{
     padding: 45px 0;
 }
 
