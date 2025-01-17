@@ -125,6 +125,7 @@ header,
 .section-two-image-container {
     display: flex;
     flex-wrap: wrap;
+    gap: 1em;
 }
 
 .feature-image {
@@ -190,6 +191,7 @@ ul {
     header .container {
         justify-content: space-between;
         align-items: center;
+
     }
 
     nav li {
